@@ -28,7 +28,8 @@ const Header = () => (
       border-bottom: 1px solid #ddd;
       display: flex;
       justify-content: space-between;
-      padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
+      padding: 0.5rem calc((100vw - 550px) / 2);
+      margin-top: 0;
     `}
   >
     <NavLink to="/" fontWeight="bold">
